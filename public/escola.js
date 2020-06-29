@@ -20,4 +20,5 @@ function calcularMedia(){
     parseFloat(document.getElementById("n2").value),
     parseFloat(document.getElementById("n3").value))
     Texto.innerHTML = `<div>${a.med()}</div>`
+    yan.innerHTML = `<div>${"Sua média é: " + a.media}</div>` 
 }
